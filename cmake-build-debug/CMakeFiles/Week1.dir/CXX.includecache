@@ -1,0 +1,26 @@
+#IncludeRegexLine: ^[ 	]*#[ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/Users/ron.pearl/CLionProjects/CST-201/Week1/Week 1/Problem_1_11_4.cpp
+Problem_1_11_4.h
+/Users/ron.pearl/CLionProjects/CST-201/Week1/Week 1/Problem_1_11_4.h
+
+/Users/ron.pearl/CLionProjects/CST-201/Week1/Week 1/Problem_1_11_4.h
+
+/Users/ron.pearl/CLionProjects/CST-201/Week1/classf.cpp
+classf.h
+/Users/ron.pearl/CLionProjects/CST-201/Week1/classf.h
+
+/Users/ron.pearl/CLionProjects/CST-201/Week1/classf.h
+
+/Users/ron.pearl/CLionProjects/CST-201/Week1/main.cpp
+iostream
+-
+Week 1/Problem_1_11_4.h
+/Users/ron.pearl/CLionProjects/CST-201/Week1/Week 1/Problem_1_11_4.h
+
