@@ -123,6 +123,33 @@ Week1/fast:
 	$(MAKE) -f CMakeFiles/Week1.dir/build.make CMakeFiles/Week1.dir/build
 .PHONY : Week1/fast
 
+Week2/IntSLLNode.o: Week2/IntSLLNode.cpp.o
+
+.PHONY : Week2/IntSLLNode.o
+
+# target to build an object file
+Week2/IntSLLNode.cpp.o:
+	$(MAKE) -f CMakeFiles/Week1.dir/build.make CMakeFiles/Week1.dir/Week2/IntSLLNode.cpp.o
+.PHONY : Week2/IntSLLNode.cpp.o
+
+Week2/IntSLLNode.i: Week2/IntSLLNode.cpp.i
+
+.PHONY : Week2/IntSLLNode.i
+
+# target to preprocess a source file
+Week2/IntSLLNode.cpp.i:
+	$(MAKE) -f CMakeFiles/Week1.dir/build.make CMakeFiles/Week1.dir/Week2/IntSLLNode.cpp.i
+.PHONY : Week2/IntSLLNode.cpp.i
+
+Week2/IntSLLNode.s: Week2/IntSLLNode.cpp.s
+
+.PHONY : Week2/IntSLLNode.s
+
+# target to generate assembly for a file
+Week2/IntSLLNode.cpp.s:
+	$(MAKE) -f CMakeFiles/Week1.dir/build.make CMakeFiles/Week1.dir/Week2/IntSLLNode.cpp.s
+.PHONY : Week2/IntSLLNode.cpp.s
+
 Week_1/Problem_1_11_4.o: Week_1/Problem_1_11_4.cpp.o
 
 .PHONY : Week_1/Problem_1_11_4.o
@@ -149,6 +176,33 @@ Week_1/Problem_1_11_4.s: Week_1/Problem_1_11_4.cpp.s
 Week_1/Problem_1_11_4.cpp.s:
 	$(MAKE) -f CMakeFiles/Week1.dir/build.make CMakeFiles/Week1.dir/Week_1/Problem_1_11_4.cpp.s
 .PHONY : Week_1/Problem_1_11_4.cpp.s
+
+Week_1/Problem_1_11_4_part2.o: Week_1/Problem_1_11_4_part2.cpp.o
+
+.PHONY : Week_1/Problem_1_11_4_part2.o
+
+# target to build an object file
+Week_1/Problem_1_11_4_part2.cpp.o:
+	$(MAKE) -f CMakeFiles/Week1.dir/build.make CMakeFiles/Week1.dir/Week_1/Problem_1_11_4_part2.cpp.o
+.PHONY : Week_1/Problem_1_11_4_part2.cpp.o
+
+Week_1/Problem_1_11_4_part2.i: Week_1/Problem_1_11_4_part2.cpp.i
+
+.PHONY : Week_1/Problem_1_11_4_part2.i
+
+# target to preprocess a source file
+Week_1/Problem_1_11_4_part2.cpp.i:
+	$(MAKE) -f CMakeFiles/Week1.dir/build.make CMakeFiles/Week1.dir/Week_1/Problem_1_11_4_part2.cpp.i
+.PHONY : Week_1/Problem_1_11_4_part2.cpp.i
+
+Week_1/Problem_1_11_4_part2.s: Week_1/Problem_1_11_4_part2.cpp.s
+
+.PHONY : Week_1/Problem_1_11_4_part2.s
+
+# target to generate assembly for a file
+Week_1/Problem_1_11_4_part2.cpp.s:
+	$(MAKE) -f CMakeFiles/Week1.dir/build.make CMakeFiles/Week1.dir/Week_1/Problem_1_11_4_part2.cpp.s
+.PHONY : Week_1/Problem_1_11_4_part2.cpp.s
 
 classf.o: classf.cpp.o
 
@@ -213,9 +267,15 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Week1"
+	@echo "... Week2/IntSLLNode.o"
+	@echo "... Week2/IntSLLNode.i"
+	@echo "... Week2/IntSLLNode.s"
 	@echo "... Week_1/Problem_1_11_4.o"
 	@echo "... Week_1/Problem_1_11_4.i"
 	@echo "... Week_1/Problem_1_11_4.s"
+	@echo "... Week_1/Problem_1_11_4_part2.o"
+	@echo "... Week_1/Problem_1_11_4_part2.i"
+	@echo "... Week_1/Problem_1_11_4_part2.s"
 	@echo "... classf.o"
 	@echo "... classf.i"
 	@echo "... classf.s"

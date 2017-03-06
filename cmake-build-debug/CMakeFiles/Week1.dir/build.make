@@ -129,11 +129,61 @@ CMakeFiles/Week1.dir/Week_1/Problem_1_11_4.cpp.o.provides: CMakeFiles/Week1.dir/
 CMakeFiles/Week1.dir/Week_1/Problem_1_11_4.cpp.o.provides.build: CMakeFiles/Week1.dir/Week_1/Problem_1_11_4.cpp.o
 
 
+CMakeFiles/Week1.dir/Week_1/Problem_1_11_4_part2.cpp.o: CMakeFiles/Week1.dir/flags.make
+CMakeFiles/Week1.dir/Week_1/Problem_1_11_4_part2.cpp.o: ../Week\ 1/Problem_1_11_4_part2.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ron.pearl/CLionProjects/CST-201/Week1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Building CXX object CMakeFiles/Week1.dir/Week_1/Problem_1_11_4_part2.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Week1.dir/Week_1/Problem_1_11_4_part2.cpp.o -c "/Users/ron.pearl/CLionProjects/CST-201/Week1/Week 1/Problem_1_11_4_part2.cpp"
+
+CMakeFiles/Week1.dir/Week_1/Problem_1_11_4_part2.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Week1.dir/Week_1/Problem_1_11_4_part2.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/Users/ron.pearl/CLionProjects/CST-201/Week1/Week 1/Problem_1_11_4_part2.cpp" > CMakeFiles/Week1.dir/Week_1/Problem_1_11_4_part2.cpp.i
+
+CMakeFiles/Week1.dir/Week_1/Problem_1_11_4_part2.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Week1.dir/Week_1/Problem_1_11_4_part2.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/Users/ron.pearl/CLionProjects/CST-201/Week1/Week 1/Problem_1_11_4_part2.cpp" -o CMakeFiles/Week1.dir/Week_1/Problem_1_11_4_part2.cpp.s
+
+CMakeFiles/Week1.dir/Week_1/Problem_1_11_4_part2.cpp.o.requires:
+
+.PHONY : CMakeFiles/Week1.dir/Week_1/Problem_1_11_4_part2.cpp.o.requires
+
+CMakeFiles/Week1.dir/Week_1/Problem_1_11_4_part2.cpp.o.provides: CMakeFiles/Week1.dir/Week_1/Problem_1_11_4_part2.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Week1.dir/build.make CMakeFiles/Week1.dir/Week_1/Problem_1_11_4_part2.cpp.o.provides.build
+.PHONY : CMakeFiles/Week1.dir/Week_1/Problem_1_11_4_part2.cpp.o.provides
+
+CMakeFiles/Week1.dir/Week_1/Problem_1_11_4_part2.cpp.o.provides.build: CMakeFiles/Week1.dir/Week_1/Problem_1_11_4_part2.cpp.o
+
+
+CMakeFiles/Week1.dir/Week2/IntSLLNode.cpp.o: CMakeFiles/Week1.dir/flags.make
+CMakeFiles/Week1.dir/Week2/IntSLLNode.cpp.o: ../Week2/IntSLLNode.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/Users/ron.pearl/CLionProjects/CST-201/Week1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/Week1.dir/Week2/IntSLLNode.cpp.o"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/Week1.dir/Week2/IntSLLNode.cpp.o -c /Users/ron.pearl/CLionProjects/CST-201/Week1/Week2/IntSLLNode.cpp
+
+CMakeFiles/Week1.dir/Week2/IntSLLNode.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/Week1.dir/Week2/IntSLLNode.cpp.i"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /Users/ron.pearl/CLionProjects/CST-201/Week1/Week2/IntSLLNode.cpp > CMakeFiles/Week1.dir/Week2/IntSLLNode.cpp.i
+
+CMakeFiles/Week1.dir/Week2/IntSLLNode.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/Week1.dir/Week2/IntSLLNode.cpp.s"
+	/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /Users/ron.pearl/CLionProjects/CST-201/Week1/Week2/IntSLLNode.cpp -o CMakeFiles/Week1.dir/Week2/IntSLLNode.cpp.s
+
+CMakeFiles/Week1.dir/Week2/IntSLLNode.cpp.o.requires:
+
+.PHONY : CMakeFiles/Week1.dir/Week2/IntSLLNode.cpp.o.requires
+
+CMakeFiles/Week1.dir/Week2/IntSLLNode.cpp.o.provides: CMakeFiles/Week1.dir/Week2/IntSLLNode.cpp.o.requires
+	$(MAKE) -f CMakeFiles/Week1.dir/build.make CMakeFiles/Week1.dir/Week2/IntSLLNode.cpp.o.provides.build
+.PHONY : CMakeFiles/Week1.dir/Week2/IntSLLNode.cpp.o.provides
+
+CMakeFiles/Week1.dir/Week2/IntSLLNode.cpp.o.provides.build: CMakeFiles/Week1.dir/Week2/IntSLLNode.cpp.o
+
+
 # Object files for target Week1
 Week1_OBJECTS = \
 "CMakeFiles/Week1.dir/main.cpp.o" \
 "CMakeFiles/Week1.dir/classf.cpp.o" \
-"CMakeFiles/Week1.dir/Week_1/Problem_1_11_4.cpp.o"
+"CMakeFiles/Week1.dir/Week_1/Problem_1_11_4.cpp.o" \
+"CMakeFiles/Week1.dir/Week_1/Problem_1_11_4_part2.cpp.o" \
+"CMakeFiles/Week1.dir/Week2/IntSLLNode.cpp.o"
 
 # External object files for target Week1
 Week1_EXTERNAL_OBJECTS =
@@ -141,9 +191,11 @@ Week1_EXTERNAL_OBJECTS =
 Week1: CMakeFiles/Week1.dir/main.cpp.o
 Week1: CMakeFiles/Week1.dir/classf.cpp.o
 Week1: CMakeFiles/Week1.dir/Week_1/Problem_1_11_4.cpp.o
+Week1: CMakeFiles/Week1.dir/Week_1/Problem_1_11_4_part2.cpp.o
+Week1: CMakeFiles/Week1.dir/Week2/IntSLLNode.cpp.o
 Week1: CMakeFiles/Week1.dir/build.make
 Week1: CMakeFiles/Week1.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ron.pearl/CLionProjects/CST-201/Week1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Linking CXX executable Week1"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/Users/ron.pearl/CLionProjects/CST-201/Week1/cmake-build-debug/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Linking CXX executable Week1"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/Week1.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -154,6 +206,8 @@ CMakeFiles/Week1.dir/build: Week1
 CMakeFiles/Week1.dir/requires: CMakeFiles/Week1.dir/main.cpp.o.requires
 CMakeFiles/Week1.dir/requires: CMakeFiles/Week1.dir/classf.cpp.o.requires
 CMakeFiles/Week1.dir/requires: CMakeFiles/Week1.dir/Week_1/Problem_1_11_4.cpp.o.requires
+CMakeFiles/Week1.dir/requires: CMakeFiles/Week1.dir/Week_1/Problem_1_11_4_part2.cpp.o.requires
+CMakeFiles/Week1.dir/requires: CMakeFiles/Week1.dir/Week2/IntSLLNode.cpp.o.requires
 
 .PHONY : CMakeFiles/Week1.dir/requires
 
