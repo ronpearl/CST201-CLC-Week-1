@@ -123,32 +123,32 @@ Week1/fast:
 	$(MAKE) -f CMakeFiles/Week1.dir/build.make CMakeFiles/Week1.dir/build
 .PHONY : Week1/fast
 
-Week2/IntSLLNode.o: Week2/IntSLLNode.cpp.o
+Week2/MyNumbers.o: Week2/MyNumbers.cpp.o
 
-.PHONY : Week2/IntSLLNode.o
+.PHONY : Week2/MyNumbers.o
 
 # target to build an object file
-Week2/IntSLLNode.cpp.o:
-	$(MAKE) -f CMakeFiles/Week1.dir/build.make CMakeFiles/Week1.dir/Week2/IntSLLNode.cpp.o
-.PHONY : Week2/IntSLLNode.cpp.o
+Week2/MyNumbers.cpp.o:
+	$(MAKE) -f CMakeFiles/Week1.dir/build.make CMakeFiles/Week1.dir/Week2/MyNumbers.cpp.o
+.PHONY : Week2/MyNumbers.cpp.o
 
-Week2/IntSLLNode.i: Week2/IntSLLNode.cpp.i
+Week2/MyNumbers.i: Week2/MyNumbers.cpp.i
 
-.PHONY : Week2/IntSLLNode.i
+.PHONY : Week2/MyNumbers.i
 
 # target to preprocess a source file
-Week2/IntSLLNode.cpp.i:
-	$(MAKE) -f CMakeFiles/Week1.dir/build.make CMakeFiles/Week1.dir/Week2/IntSLLNode.cpp.i
-.PHONY : Week2/IntSLLNode.cpp.i
+Week2/MyNumbers.cpp.i:
+	$(MAKE) -f CMakeFiles/Week1.dir/build.make CMakeFiles/Week1.dir/Week2/MyNumbers.cpp.i
+.PHONY : Week2/MyNumbers.cpp.i
 
-Week2/IntSLLNode.s: Week2/IntSLLNode.cpp.s
+Week2/MyNumbers.s: Week2/MyNumbers.cpp.s
 
-.PHONY : Week2/IntSLLNode.s
+.PHONY : Week2/MyNumbers.s
 
 # target to generate assembly for a file
-Week2/IntSLLNode.cpp.s:
-	$(MAKE) -f CMakeFiles/Week1.dir/build.make CMakeFiles/Week1.dir/Week2/IntSLLNode.cpp.s
-.PHONY : Week2/IntSLLNode.cpp.s
+Week2/MyNumbers.cpp.s:
+	$(MAKE) -f CMakeFiles/Week1.dir/build.make CMakeFiles/Week1.dir/Week2/MyNumbers.cpp.s
+.PHONY : Week2/MyNumbers.cpp.s
 
 Week_1/Problem_1_11_4.o: Week_1/Problem_1_11_4.cpp.o
 
@@ -267,9 +267,9 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... Week1"
-	@echo "... Week2/IntSLLNode.o"
-	@echo "... Week2/IntSLLNode.i"
-	@echo "... Week2/IntSLLNode.s"
+	@echo "... Week2/MyNumbers.o"
+	@echo "... Week2/MyNumbers.i"
+	@echo "... Week2/MyNumbers.s"
 	@echo "... Week_1/Problem_1_11_4.o"
 	@echo "... Week_1/Problem_1_11_4.i"
 	@echo "... Week_1/Problem_1_11_4.s"

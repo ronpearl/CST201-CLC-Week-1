@@ -20,11 +20,13 @@ Problem_1_11_4_part2.h
 iostream
 -
 
-/Users/ron.pearl/CLionProjects/CST-201/Week1/Week2/IntSLLNode.cpp
-IntSLLNode.h
-/Users/ron.pearl/CLionProjects/CST-201/Week1/Week2/IntSLLNode.h
+/Users/ron.pearl/CLionProjects/CST-201/Week1/Week2/MyNumbers.cpp
+MyNumbers.h
+/Users/ron.pearl/CLionProjects/CST-201/Week1/Week2/MyNumbers.h
 
-/Users/ron.pearl/CLionProjects/CST-201/Week1/Week2/IntSLLNode.h
+/Users/ron.pearl/CLionProjects/CST-201/Week1/Week2/MyNumbers.h
+iostream
+-
 
 /Users/ron.pearl/CLionProjects/CST-201/Week1/classf.cpp
 classf.h
@@ -35,6 +37,6 @@ classf.h
 /Users/ron.pearl/CLionProjects/CST-201/Week1/main.cpp
 iostream
 -
-Week2/IntSLLNode.h
-/Users/ron.pearl/CLionProjects/CST-201/Week1/Week2/IntSLLNode.h
+Week2/MyNumbers.h
+/Users/ron.pearl/CLionProjects/CST-201/Week1/Week2/MyNumbers.h
 

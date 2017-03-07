@@ -1,30 +1,23 @@
 #include <iostream>
-//#include "Week 1/Problem_1_11_4.h"
-//#include "Week 1/Problem_1_11_4_part2.h"
 
-#include "Week2/IntSLLNode.h"
+#include "Week2/MyNumbers.h"
 
 using namespace std;
 
 int main() {
 
-//    Problem_1_11_4_part1* p1114 = new Problem_1_11_4_part1();
-//    std::cout << p1114->getTotal() << std::endl;
-//
-//    Problem_1_11_4_part2* p1114_2 = new Problem_1_11_4_part2();
-//    p1114_2->printEvenNums();
+    MyNumbers *node = new MyNumbers();
 
-    IntSLLNode *node = new IntSLLNode(5);
-    node->next = new IntSLLNode(10);
-    node->next->next = new IntSLLNode(50);
+    node = node->insertAtBeginning(node, 5);
+    node = node->insertAtBeginning(node, 8);
+    node = node->insertAtBeginning(node, 22);
+    node = node->insertAtBeginning(node, 12);
 
-    // Read all nodes in the linked list
-    while (node != NULL) {
-        cout << node->info << endl;
-        node = node->next;
-    }
+    node->printNums(node);
 
-    cout << node->info << endl;
+
+    // TODO: https://www.youtube.com/watch?v=IbvsNF22Ud0&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=7
+
 
     return 0;
 }

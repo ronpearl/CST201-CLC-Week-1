@@ -3,7 +3,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/Week1.dir/classf.cpp.o"
   "CMakeFiles/Week1.dir/Week_1/Problem_1_11_4.cpp.o"
   "CMakeFiles/Week1.dir/Week_1/Problem_1_11_4_part2.cpp.o"
-  "CMakeFiles/Week1.dir/Week2/IntSLLNode.cpp.o"
+  "CMakeFiles/Week1.dir/Week2/MyNumbers.cpp.o"
   "Week1.pdb"
   "Week1"
 )
