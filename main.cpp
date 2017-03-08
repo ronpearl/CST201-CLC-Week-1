@@ -6,17 +6,31 @@ using namespace std;
 
 int main() {
 
-    MyNumbers *node = new MyNumbers();
+    MyNumbers *linkedList = new MyNumbers();
 
-    node = node->insertAtBeginning(node, 5);
-    node = node->insertAtBeginning(node, 8);
-    node = node->insertAtBeginning(node, 22);
-    node = node->insertAtBeginning(node, 12);
+    linkedList = linkedList->insertAtBeginning(linkedList, 5); // List: 5
+    linkedList = linkedList->insertAtBeginning(linkedList, 8); // List: 8, 5
+    linkedList = linkedList->insertAtBeginning(linkedList, 22); // List: 22, 8, 5
+    linkedList = linkedList->insertAtBeginning(linkedList, 12); // List: 12, 22, 8, 5
 
-    node->printNums(node);
+//    cout << "\nList after beginning inserts:" << endl;
+//    linkedList->printNums(linkedList);
 
 
-    // TODO: https://www.youtube.com/watch?v=IbvsNF22Ud0&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P&index=7
+    linkedList = linkedList->insertAtPosition(linkedList, 2, 1);  // List: 2, 12, 22, 8, 5
+    linkedList = linkedList->insertAtPosition(linkedList, 10, 4);  // List: 2, 12, 22, 10, 8, 5
+
+//    cout << "\nList after position inserts:" << endl;
+//    linkedList->printNums(linkedList);
+
+    linkedList = linkedList->removeAtPosition(linkedList, 3);   // List: 2, 12, 10, 8, 5
+
+    cout << "\nList after position removal:" << endl;
+    linkedList->printNums(linkedList);
+
+
+
+    // TODO: https://www.youtube.com/watch?v=IbvsNF22Ud0&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P
 
 
     return 0;
