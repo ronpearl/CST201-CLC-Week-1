@@ -1,34 +1,38 @@
 #include <iostream>
 
-#include "Week2/MyNumbers.h"
+#include "Week2/LinkedList.h"
 
 using namespace std;
 
 int main() {
 
-    MyNumbers *linkedList = new MyNumbers();
+    LinkedList *list1 = new LinkedList();
+    LinkedList *list2 = new LinkedList();
 
-    linkedList = linkedList->insertAtBeginning(linkedList, 5); // List: 5
-    linkedList = linkedList->insertAtBeginning(linkedList, 8); // List: 8, 5
-    linkedList = linkedList->insertAtBeginning(linkedList, 22); // List: 22, 8, 5
-    linkedList = linkedList->insertAtBeginning(linkedList, 12); // List: 12, 22, 8, 5
+    list1->addToEnd(5);
+    list1->addToEnd(2);
+    list1->print();
 
-//    cout << "\nList after beginning inserts:" << endl;
-//    linkedList->printNums(linkedList);
+    list2->addToEnd(20);
+    list2->addToEnd(36);
+    list2->print();
+
+    list1->insertAtBeginning(10);
+    list1->print();
+
+    list2->insertAtBeginning(8);
+    list2->print();
+
+    list2->removeAtPosition(1);
+    list2->print();
+
+    list2->insertAtPosition(18, 3);
+    list2->print();
 
 
-    linkedList = linkedList->insertAtPosition(linkedList, 2, 1);  // List: 2, 12, 22, 8, 5
-    linkedList = linkedList->insertAtPosition(linkedList, 10, 4);  // List: 2, 12, 22, 10, 8, 5
-
-//    cout << "\nList after position inserts:" << endl;
-//    linkedList->printNums(linkedList);
-
-    linkedList = linkedList->removeAtPosition(linkedList, 3);   // List: 2, 12, 10, 8, 5
-
-    cout << "\nList after position removal:" << endl;
-    linkedList->printNums(linkedList);
-
-
+    // Append lists
+//    cout << "\nAppending lists: " << endl;
+//    list1->appendLists(list2->head);
 
     // TODO: https://www.youtube.com/watch?v=IbvsNF22Ud0&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P
 
