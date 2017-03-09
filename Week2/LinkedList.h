@@ -120,24 +120,22 @@ public:
         temp1->next = curr;     // Add next position of curr to temp3
     }
 
-//    void appendLists(LinkedList *toAppend) {
-//        LinkedList *thisList = head;
-//        LinkedList *newList = toAppend;
-//
-//        // Get to the last element of our current list
-//        while (thisList != NULL) {
-//            thisList = thisList->next;
-//        }
-//
-//        while (newList->next != NULL) {
-//            thisList = newList;
-//            thisList->next = NULL;
-//
-//            newList = newList->next;
-//        }
-//
-//        head = thisList;
-//    }
+    /**
+     * Append this list with another
+     *
+     * @param toAppend
+     */
+    void appendLists(LinkedList *toAppend) {
+        LinkedList *thisList = head;
+        LinkedList *newList = toAppend->head;
+
+        // Get to the last element of our current list
+        while (thisList->next != NULL) {
+            thisList = thisList->next;
+        }
+
+        thisList->next = newList;
+    }
 
     /**
      * Print out items in the list

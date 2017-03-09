@@ -31,8 +31,9 @@ int main() {
 
 
     // Append lists
-//    cout << "\nAppending lists: " << endl;
-//    list1->appendLists(list2->head);
+    cout << "\nAppending lists: " << endl;
+    list1->appendLists(list2);
+    list1->print();
 
     // TODO: https://www.youtube.com/watch?v=IbvsNF22Ud0&list=PL2_aWCzGMAwI3W_JlcBbtYTwiQSsOTa6P
 
